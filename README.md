@@ -1,5 +1,5 @@
 ## 🏎💨 Quick Exit Button 🙅‍♀️
-QEB is a button to redirect a website and remove traces from the history after being pressed.
+QEB is a button to redirect a website and quickly exit a webpage discretely.
 
 ## How it works ✏️
 QEB works by utilizing an IFFE (pronounced "iffy"). An IFFE is an *Immediately Invoked Function Expression* that runs as soon as a website loads. IFFE's reduce clutter in the global scope because all variables and functions within it are not visible outside of its scope.
