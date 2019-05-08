@@ -3,10 +3,6 @@
   box-sizing: border-box;
 }
 
-.main-nav {
-  background-color: #eee;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -25,12 +21,16 @@ a {
   color: #333;
 }
 
-a:hover, .logo:hover {
+a:hover {
   color: orange;
 }
 
 p {
   padding: 1%;
+}
+
+.main-nav {
+  background-color: #eee;
 }
 
 .subtitle {
@@ -46,4 +46,8 @@ p {
   position: absolute;
   top: 10px;
   right: 10px;
+  border-radius: 5px;
+  height: 35px;
+  width: 80px;
+  font-size: 14px;
 }
