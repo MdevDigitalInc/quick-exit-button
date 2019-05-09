@@ -12,7 +12,7 @@ An inital `window.onload` runs the initializing function `init()` when the page 
 3. Take this value and replace it with the 81 in `line 19` of the HTML files in the `data-key` attribute.
 4. To customize the appearance of the button, adjust the color, background, and border properties if desired in the same line as the previous step. This time, change the `data-color`, `data-background`, and `data-border` properties.
 
-NOTE: No changes need to be done in the `exit-scripts.js` file. Any modifications must be made in the HTML files.
+NOTE: No changes need to be done in the `exit-scripts.js` file. Any modifications can be made in the HTML.
 
 ## Resources Used 📚
 1. `https://developer.mozilla.org/en-US/docs/Web/API/Location/replace`
