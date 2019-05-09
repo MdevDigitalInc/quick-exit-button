@@ -9,8 +9,10 @@ An inital `window.onload` runs the initializing function `init()` when the page 
 ## How to use 📍
 1. Enter your desired website URL in the `exit()` function. The URL must be enclosed in quotes (either '' or ""). 
 2. To change which key triggers the `exit()` function, decide what key you would like to use and then use `https://keycode.info` to obtain the JavaScript event keycode. 
-3. Take this value and replace it with the 81 in `line 59` and `line 61`.
-4. To customize the appearance of the button, adjust the color, background, and border properties if desired in the `init()` function. If changed, be sure to copy the same values to `line 19`, `line 20`, and `line 21`. The hovering colours on the button may be changed as well if desired. The properties on the hovering will not have to be copied anywhere else.
+3. Take this value and replace it with the 81 in `line 19` of the HTML files in the `data-key` attribute.
+4. To customize the appearance of the button, adjust the color, background, and border properties if desired in the same line as the previous step. This time, change the `data-color`, `data-background`, and `data-border` properties.
+
+NOTE: No changes need to be done in the `exit-scripts.js` file. Any modifications must be made in the HTML files.
 
 ## Resources Used 📚
 1. `https://developer.mozilla.org/en-US/docs/Web/API/Location/replace`
