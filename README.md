@@ -19,3 +19,7 @@ NOTE: No changes need to be done in the `exit-scripts.js` file. Any modification
 2. `https://codeburst.io/javascript-what-the-heck-is-an-immediately-invoked-function-expression-a0ed32b66c18`
 3. `https://www.rgraph.net/canvas/docs/the-domcontentloaded-event.html`
 4. `https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event`
+5. `https://keycode.info`
+6. `http://www.javascriptkit.com/dhtmltutors/domattribute.shtml`
+7. `https://www.w3schools.com/jsref/dom_obj_event.asp`
+8. `https://developer.mozilla.org/en-US/docs/Web/API/Event/target`
