@@ -10,7 +10,7 @@ An inital `window.onload` runs the initializing function `init()` when the page 
 1. Enter your desired website URL in `line 19` of the HTML. The URL must be enclosed in quotes (either '' or "") inside the `data-exit-url` attribute. 
 2. To change which key triggers the `exit()` function, decide what key you would like to use and then use `https://keycode.info` to obtain the JavaScript event keycode. 
 3. Take this value and replace it with the 81 in `line 19` of the HTML files in the `data-key` attribute.
-4. To customize the appearance of the button, adjust the color, background, and border properties if desired in the same line as the previous step. This time, change the `data-color`, `data-background`, and `data-border` properties.
+4. To customize the appearance of the button, adjust the color, background, and border properties in the same line as the previous step. This time, change the `data-color`, `data-background`, and `data-border` properties.
 
 NOTE: No changes need to be done in the `exit-scripts.js` file. Any modifications can be made in the HTML.
 
