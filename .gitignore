@@ -59,9 +59,6 @@ typings/
 
 # next.js build output
 .next
-style.css
-script.js
-page-4.html
-page-3.html
-page-2.html
-index.html
+
+# DS_Store
+.DS_Store
