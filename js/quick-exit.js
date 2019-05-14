@@ -13,15 +13,26 @@
       console.log("EXIT button is NOT ACTIVE!");
       return;
     }
+
     // Obtain button colour properties
     var btnColor = document.getElementById("button").getAttribute("data-color");
     var btnBackground = document.getElementById("button").getAttribute("data-background");
     var btnBorder = document.getElementById("button").getAttribute("data-border");
 
-    // Change the button colour
-    document.querySelector("[data-exit-button]").style.color = btnColor;
-    document.querySelector("[data-exit-button]").style.background = btnBackground;
-    document.querySelector("[data-exit-button]").style.border = btnBorder;
+    var status = document.getElementById("button").getAttribute("data-button-style");
+    console.log(status);
+
+    if (status === "false") {
+      // Default properties
+      document.querySelector("[data-exit-button]").style.color = "white";
+      document.querySelector("[data-exit-button]").style.background = "darkred";
+      document.querySelector("[data-exit-button]").style.border = "3px solid red";
+    } else {
+      // User-defined properties
+      document.querySelector("[data-exit-button]").style.color = btnColor;
+      document.querySelector("[data-exit-button]").style.background = btnBackground;
+      document.querySelector("[data-exit-button]").style.border = btnBorder;
+    }
   };
 
   // A function to exit and redirect the current website to a different one.
