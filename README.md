@@ -1,3 +1,5 @@
+# [Quick Exit Demo]( http://quick-exit-demo.s3-website.us-east-2.amazonaws.com/demo/ 'Quick Exit Demo site')
+
 ## 🏎💨 Quick Exit Button 🙅‍♀️
 QEB is a button to redirect a website and quickly exit a webpage discretely.
 
