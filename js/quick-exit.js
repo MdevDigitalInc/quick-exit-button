@@ -13,15 +13,25 @@
       console.log("EXIT button is NOT ACTIVE!");
       return;
     }
+
     // Obtain button colour properties
     var btnColor = document.getElementById("button").getAttribute("data-color");
     var btnBackground = document.getElementById("button").getAttribute("data-background");
     var btnBorder = document.getElementById("button").getAttribute("data-border");
 
-    // Change the button colour
+    // Change the button colour using user-defined properties
     document.querySelector("[data-exit-button]").style.color = btnColor;
     document.querySelector("[data-exit-button]").style.background = btnBackground;
     document.querySelector("[data-exit-button]").style.border = btnBorder;
+
+    // Check if button-styles are allowed to be customized. If not, use default properties.
+    var status = document.getElementById("button").getAttribute("data-button-style");
+    if (status === "false") {
+      // Default properties
+      document.querySelector("[data-exit-button]").style.color = "white";
+      document.querySelector("[data-exit-button]").style.background = "darkred";
+      document.querySelector("[data-exit-button]").style.border = "3px solid red";
+    }
   };
 
   // A function to exit and redirect the current website to a different one.
